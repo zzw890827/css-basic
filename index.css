@@ -1,0 +1,64 @@
+a.one {
+    color: green;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+a.two {
+    color: red;
+    font-family: "Monospaced";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.text-layout-box {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
+
+.text-layout-box span {
+    width: 10px;
+    height: 20px;
+    color: blue;
+    line-height: 40px;
+}
+
+.list-style-box ul {
+    list-style-type: circle;
+}
+
+.list-style-box ol {
+    list-style-type: lower-alpha;
+}
+
+.list-position-box ul {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: red;
+}
+
+.list-position-box ol {
+    list-style-type: upper-roman;
+}
+
+.list-position-box li {
+    background-color: gold;
+}
+
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+
+.web-font-box {
+    font-family: "Bitstream Vera Serif Bold", serif;
+}
+

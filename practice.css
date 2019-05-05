@@ -1,0 +1,72 @@
+#app {
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+.sub-header-date {
+    font-size: 14px;
+    color: gray;
+}
+
+.sub-header-media {
+    font-size: 14px;
+    color: #a62612;
+    margin-left: 2px;
+}
+
+.sub-header-favorate {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="button"] {
+    color: green;
+    cursor: pointer;
+}
+
+.main-para-1 {
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+.main-para-1 span {
+    color: blue;
+}
+
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+
+.main-para-2 {
+    font-family: "Bitstream Vera Serif Bold", serif;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: blueviolet;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+li {
+    background-color: antiquewhite;
+}
